@@ -7,7 +7,6 @@ const DIFERENCIAIS = [
 export default function Sobre() {
     return (
         <div className="min-h-screen bg-amber-50 text-gray-800">
-            {/* Topo */}
             <header className="bg-gradient-to-r from-pink-500 via-orange-400 to-yellow-400 px-4 py-20 text-center text-white shadow-lg">
                 <span className="text-6xl">🪀</span>
                 <h1 className="mt-4 text-4xl font-extrabold tracking-tight drop-shadow md:text-5xl">
@@ -19,7 +18,6 @@ export default function Sobre() {
             </header>
 
             <main className="mx-auto max-w-4xl px-4 py-14">
-                {/* Quem somos */}
                 <section className="rounded-3xl bg-white p-8 shadow-md">
                     <h2 className="text-2xl font-bold text-pink-600">Quem somos</h2>
                     <p className="mt-3 leading-relaxed text-gray-600">
@@ -29,7 +27,6 @@ export default function Sobre() {
                     </p>
                 </section>
 
-                {/* Diferenciais */}
                 <section className="mt-12">
                     <h2 className="text-center text-2xl font-bold text-gray-900">
                         Por que escolher a gente
@@ -48,7 +45,6 @@ export default function Sobre() {
                     </ul>
                 </section>
 
-                {/* Chamada final */}
                 <section className="mt-12 rounded-3xl bg-pink-600 p-8 text-center text-white shadow-lg">
                     <h2 className="text-2xl font-bold">Vem brincar com a gente!</h2>
                     <p className="mt-2 text-white/90">Conheça nossos produtos e encontre o presente perfeito.</p>
